@@ -13,7 +13,7 @@ urlpatterns = [
     re_path('admin/', admin.site.urls),
     re_path(r'upload_files/',views.upload_files,name='upload_files'),
     re_path(r'output/',views.output,name='output'),
-    re_path(r'make_prediction/',views.make_prediction,name='make_prediction'),
+    # re_path(r'make_prediction/',views.make_prediction,name='make_prediction'),
     re_path(r'^$',views.index,name='index'),
     # re_path(r'^Turf_Edit/(?P<id>\d+)/$',views.Turf_Edit, name='Turf_Edit'),
     # re_path(r'^req/$',views.req, name='req'),

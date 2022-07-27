@@ -31,6 +31,14 @@
     
     {% load static %}
     <script src="{% static 'js/file-upload.js' %}"></script>
+    <!-- <style>
+      body{
+               background-image: url('{% static "spamdetect_bg1.jpg" %}');
+               background-repeat: no-repeat ;
+               background-size: 100% 100%;
+              }
+      
+      </style> -->
 </head>
 
 <body>
@@ -45,7 +53,7 @@
       <div class="input-group col-xs-12"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
        <input type="text" class="form-control file-upload-info" disabled placeholder="upload file" required>
         <span class="input-group-append">
-          <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+          <button class="file-upload-browse btn btn-primary" type="button">Select</button>
         </span>
       </div>
       <center>
